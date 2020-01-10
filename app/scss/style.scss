@@ -518,7 +518,7 @@
 text-align: center;
 margin-bottom: 60px;
 button{
-    padding: 12px 13px;
+    padding: 12px 21px;
     border:none;
     background-color: #fff;
     color: $bg;
@@ -537,17 +537,19 @@ button{
 }
 
 
-.products.product__item{
+.products .product__item{
     flex-basis: calc(25% - 30px);
     margin-left: 30px;
 }
+
+
 .product__item{
     max-width: 442px;
     width: 100%;
     box-shadow: 0px 1px 2px 0px rgba(205, 214, 222, 0.75);
     margin-bottom: 30px;
     &-img{
-        min-height:250px;
+        min-height: 250px;
         background-repeat: no-repeat;
         display: block;
         background-position: center;
